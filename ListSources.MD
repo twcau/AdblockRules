@@ -2,7 +2,8 @@ The following are the lists I use and their information sources.
  
 | URL | Name | Homepage | Notes |
 |:--|:--|:--|:--|
-| https://raw.githubusercontent.com/twcau/AdblockRules/master/CustomList | Michael H's custom blocking list|https://github.com/twcau/AdblockRules|This is just my own stuff, for things i'm fine with, but also things i'm not fine with that aren't picked up by any other rules|
+| https://raw.githubusercontent.com/twcau/AdblockRules/master/CustomList | AAA Michael H's custom list|https://github.com/twcau/AdblockRules|This is just my own stuff, for things i'm fine with, but also things i'm not fine with that aren't picked up by any other rules|
+| https://github.com/twcau/AdblockRules/raw/master/CustomSonyTVList | AAA Michael H's custom list|https://github.com/twcau/AdblockRules/blob/master/CustomSonyTVList|This is just my own stuff, for things i'm fine with, but also things i'm not fine with that aren't picked up by any other rules|
 | https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt | AdGuard Simplified Domain Names filter|  |  |
 |  https://adaway.org/hosts.txt |  AdAway|   | |
 |  https://www.malwaredomainlist.com/hostslist/hosts.txt |  MalwareDomainList.com Hosts List |   | |
