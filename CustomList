@@ -78,6 +78,8 @@ $removeparam=gclid|yclid|fbclid|utm_source|utm_medium|utm_term|utm_content|utm_c
 #
 # Other sneaky vendors
 ||analytics.atlassian.com^
+||analytics.ghostery.com^
+||analytics.linktr.ee^
 #
 # ---Sneaky Service Vendors---
 #
@@ -118,7 +120,5 @@ $removeparam=gclid|yclid|fbclid|utm_source|utm_medium|utm_term|utm_content|utm_c
 ||app.launchdarkly.com^
 ||cookielaw.org^
 ||amazon.app.lifx.com^$important
-||analytics.ghostery.com^
-||analytics.linktr.ee^
 ||inq.com^$important
 ||cookiebot.com^$important
