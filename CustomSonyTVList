@@ -1,0 +1,55 @@
+# Michael H's custom blocking list
+# Sony Android TV's with streaming services enabled
+# 
+# Version 0.1.01
+# Last updated 30.06.2020 1935hrs
+#
+# Purpose:
+# This blocklist blocks smart TV metadata and ad traffic for Sony Android TV's
+#
+# Credits:
+# This list is based on the work of https://github.com/d43m0nhLInt3r/socialblocklists
+# 
+# ---Google Android TV nasties---
+connectivitycheck.gstatic.com^
+googlevideo.com^ ! Closing off all domains that push Google video advertising.
+cert-test.sandbox.google.com
+googleads.g.doubleclick.net
+www.google-analytics.com
+#
+# ---Sony Bravia---
+ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
+ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
+api-mf1.meta.ndmdhs.com
+b02.black.ndmdhs.com
+bravia.dl.playstation.net
+call.me.sel.sony.com
+flingo.tv
+sonybivstatic-a.akamaihd.net
+ssm1.internet.sony.tv
+ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv
+ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv
+bravia.dl.playstation.net
+call.me.sel.sony.com
+ssm1.internet.sony.tv
+sonybivstatic-a.akamaihd.net
+# Note: Do not block
+# The following domains are needed for applications
+#applicast.ga.sony.net
+#portal.store.sonyentertainmentnetwork.com
+#
+# ---Netflix---
+ichnaea.netflix.com
+customerevents.netflix.com
+nrdp.nccp.netflix.com
+# Note: Do not block
+# The following domains are needed to ensure core functionality works
+#secure.netflix.com                   
+#api-global.netflix.com
+#appboot.netflix.com
+#
+# ---Spotify---
+api-tv.spotify.com
+#
+# ---Hulu---
+api.distribution.hulu.com
