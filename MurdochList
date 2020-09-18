@@ -1,0 +1,37 @@
+# Michael H's custom blocking list
+# Murdoch publications
+# 
+# Version 0.1.01
+# Last updated 18.09.2020 2110hrs
+#
+# Purpose:
+# This blocklist blocks all content from Murdoch owned and affiliated websites
+#
+# Credits:
+# This list is based on the work of https://murdoch-block.ash.ms/adblock-plus.txt
+# 
+# ---Murdoch press websites---
+adelaidenow.com.au
+barrons.com
+cairnspost.com.au
+couriermail.com.au
+dailytelegraph.com.au
+dowjones.com
+fnlondon.com
+geelongadvertiser.com.au
+goldcoast.com.au
+heraldsun.com.au
+marketwatch.com
+news.com.au
+northshoretimes.com.au
+ntnews.com.au
+nypost.com
+postcourier.com.pg
+questnews.com.au
+talksport.com
+theaustralian.com.au
+themercury.com.au
+thesun.co.uk
+thetimes.co.uk
+townsvillebulletin.com.au
+wsj.com
