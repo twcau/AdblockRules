@@ -1,8 +1,10 @@
+
 The following are the lists I use and their information sources.
  
 | URL | Name | Homepage | Notes |
 |:--|:--|:--|:--|
 | https://github.com/twcau/AdblockRules/raw/master/CustomSonyTVList | AAA Michael H's custom list|https://github.com/twcau/AdblockRules/blob/master/CustomSonyTVList|This is just my own stuff, for things i'm fine with, but also things i'm not fine with that aren't picked up by any other rules|
+| https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList | Murdoch Publications |https://github.com/twcau/AdblockRules/blob/master/MurdochList|Because if you want to tell Murdoch publications to get stuffed, block them from your network entirelly I say|
 | https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt | AdGuard Simplified Domain Names filter|  |  |
 |  https://adaway.org/hosts.txt |  AdAway|   | |
 |  https://www.malwaredomainlist.com/hostslist/hosts.txt |  MalwareDomainList.com Hosts List |   | |
