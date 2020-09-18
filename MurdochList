@@ -5,33 +5,88 @@
 # Last updated 18.09.2020 2110hrs
 #
 # Purpose:
-# This blocklist blocks all content from Murdoch owned and affiliated websites
+# This blocklist blocks all content from Murdoch owned and affiliated websites, for use in AdBlock and other tools that support AdBlock lists.
+#
+# Want to add something to the list?
+# If you know how to use Github, go forth and commit. 
+# And if you don't - send me a tweet: https://twitter.com/twcau
 #
 # Credits:
 # This list is based on the work of https://murdoch-block.ash.ms/adblock-plus.txt
 # 
 # ---Murdoch press websites---
 adelaidenow.com.au
+amplify.com
+australiannewschannel
+australiannewschannel.com.au
 barrons.com
+bestrecipes.com.au
+bodyandsoul.com.au
+businessspectator.com.au
 cairnspost.com.au
+careerone.com.au
+carsguide.com.au
 couriermail.com.au
 dailytelegraph.com.au
 dowjones.com
+eurekareport.com.au
 fnlondon.com
+foxbusiness.com
+foxnews.com
+foxnewsgo.com
+foxsports.com
+foxsports.com.au
+foxsportspulse.com
+foxtel.com.au
+foxtix.com.au
 geelongadvertiser.com.au
+getprice.com.au
 goldcoast.com.au
+goldcoastbulletin.com.au
+harpercollins.com
 heraldsun.com.au
+hgeelongadvertiser.com.au
+hipages.com.au
+homelife.com.au
+kayosports.com.au
+kidspot.com.au
+learningseat.com.au
 marketwatch.com
+moshtix.com.au
+news.co.uk
 news.com.au
+newsamerica.com
+newscorp.com
 northshoretimes.com.au
 ntnews.com.au
 nypost.com
+odds.com.au
+onebigswitch.com.au
+perthnow.com.au
 postcourier.com.pg
+punters.com.au
 questnews.com.au
+realcommercial.com.au
+realestate.com.au
+shopferret.com.au
+skynews.com.au
+skyweather.com.au
+smartsource.com
+stocksinvalue.com.au
+storyful.com
+suddenly.com.au
+supercoach.com.au
 talksport.com
+taste.com.au
 theaustralian.com.au
 themercury.com.au
 thesun.co.uk
+thesundaytimes.co.uk
 thetimes.co.uk
 townsvillebulletin.com.au
+traderoo.com.au
+vogue.com.au
+weeklytimesnow.com.au
+wego.com.au
+whereilive.com.au
 wsj.com
