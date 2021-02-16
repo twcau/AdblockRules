@@ -29,8 +29,8 @@
 # This list is based on the work of https://github.com/d43m0nhLInt3r/socialblocklists
 # 
 # ---Google Android TV nasties---
-||connectivitycheck.gstatic.com
-||googlevideo.com^ ! Closing off all domains that push Google video advertising.
+# ||connectivitycheck.gstatic.com
+# ||googlevideo.com^ ! Closing off all domains that push Google video advertising.
 ||cert-test.sandbox.google.com^
 ||googleads.g.doubleclick.net^
 ||www.google-analytics.com^
