@@ -1,15 +1,18 @@
 # AdblockRules
-My adblock rules for use in Adguard and other platforms
+This is where you'll find the AdBlock rules I use, and some of the rulesets I've created to deal with things other lists don't focus on.
 
-* [List sources](https://github.com/twcau/AdblockRules/blob/master/ListSources.MD): Summary of the lists I use for Adblocking, inc. my own custom lists.
+# My lists
 
-# Purpose:
+- MurdochList (blocks all websites affiliated with the Murdoch empire): https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList
+- CustomSonyTVList (stops unnecessary traffic from Smart TV's dead in their tracks): https://raw.githubusercontent.com/twcau/AdblockRules/master/CustomSonyTVList
 
-These blocklists assist with capturing some of the other nasties and annoyances which other block lists don't really focus on.
+# Other useful lists
+
+- [My list of lists](https://github.com/twcau/AdblockRules/blob/master/ListSources.MD) - Summary of the lists I use for Adblocking
 
 # How to use?
 
-Add the web address of this list as a subscription within your AdBlock client, and *shazam* - your internet experience will be Murdochless.
+Add the web address of one or more lists as a subscription within your AdBlock client, and *shazam* - your internet experience will be that little more free of those things which abuse your privacy and suck up your data like greasy hors d'oeuvres.
 
 # Never used AdBlock rules before?
 - Explaination of AdBlock rules: https://help.getadblock.com/support/solutions/articles/6000066909-introduction-to-filter-lists
