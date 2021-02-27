@@ -29,3 +29,8 @@ Plugins are available for use with most modern web browsers, on both desktop and
 If you know how to use Github, go forth and commit. 
 
 And if you don't - send me a tweet: https://twitter.com/twcau
+
+# Tools used for maintaining lists
+
+* [DeDupe Lists](http://www.textwidgets.com/dedupelist.html)
+* [Rule redundancy checker](https://abpvn.com/ruleChecker/redundantRuleChecker.html)
