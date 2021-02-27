@@ -1,8 +1,8 @@
 # Michael H's custom blocking list
 # Murdoch publications
 # 
-# Version 0.1.02a
-# Last updated 16.02.2021 1320hrs AWST
+# Version 0.1.03
+# Last updated 27.02.2021 1019hrs AWST
 #
 #
 # Purpose:
@@ -38,8 +38,8 @@
 # ---Murdoch owned or affiliated websites---
 ||adelaidenow.com.au^
 ||amplify.com^
-||australiannewschannel^
 ||australiannewschannel.com.au^
+||australiannewschannel^
 ||barrons.com^
 ||bestrecipes.com.au^
 ||bodyandsoul.com.au^
@@ -55,9 +55,10 @@
 ||foxbusiness.com^
 ||foxnews.com^
 ||foxnewsgo.com^
-||foxsports.com^
 ||foxsports.com.au^
+||foxsports.com^
 ||foxsportspulse.com
+||foxsportspulse.com^
 ||foxtel.com.au^
 ||foxtix.com.au^
 ||geelongadvertiser.com.au^
@@ -66,6 +67,7 @@
 ||goldcoastbulletin.com.au^
 ||harpercollins.com^
 ||heraldsun.com.au^
+||hgeelongadvertiser.com.au^
 ||hipages.com.au^
 ||homelife.com.au^
 ||kayosports.com.au^
@@ -76,6 +78,7 @@
 ||mogo.com.au^
 ||moshtix.com.au^
 ||news.co.uk
+||news.co.uk^
 ||news.com.au^
 ||newsamerica.com^
 ||newscorp.com^
