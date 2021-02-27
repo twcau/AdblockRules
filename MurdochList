@@ -1,9 +1,12 @@
-# Michael H's custom blocking list
-# Murdoch publications
-# 
-# Version 0.2.02
-# Last updated 27.02.2021 1056hrs AWST
-#
+! Title: MurdochList
+! Description: blocks all websites affiliated with the Murdoch empire
+! Format: adblock
+! Version: 0.02.02
+! Expires: 1 day (update frequency)
+! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
+! Updated: Sat, 27.02.2021 10:56
+! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList
+! --------------------------------------------
 #
 # Purpose:
 # This blocklist blocks all content from Murdoch owned or affiliated websites, that can be used in any web browser, plugin,
