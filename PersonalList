@@ -1,0 +1,54 @@
+! Title: PersonalList
+! Description: A list of websites and domains that should be blocked, that aren't covered by other rules
+! Format: adblock
+! Version: 0.01.01
+! Expires: 1 day (update frequency)
+! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
+! Updated: Tue, 09.03.2021 15:50
+! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/PersonalList
+! --------------------------------------------
+!
+! Content that is ok
+!
+@@||lecol.cc^$important
+@@||kickstarter.com^$important
+@@||indiegogo.com^$important
+@@||stats.transitapp.com^$important
+@@||api.sunrise-sunset.org^$important
+@@||ha-link.sailthru.com^$important
+!
+! gTLD's whose content can get lost
+||*.ru^$important
+||*.cn^$important
+!
+! Nasty advertisers and data suckers
+||tracking.engineering.cloud.seek.com.au^$important
+||chalice-experience-api.cloud.seek.com.au^$important
+||tracker.realitymine.com^$important
+||*omtrdc*^$important
+||*googlesyndication*^$important
+||*2mdn.net^$important
+||*googleadservices*^$important
+||*imrworldwide*^$important
+||*doubleclick*^$important #This one is even more restrictive/catches more.
+||*ablink.emails*^$important
+||*googlesyndication*^$important
+||*adservice.google*^$important
+||ad.crwdcntrl.net^$important
+||adnxs.com^$important
+!
+! Nasty apps
+||firebaseremoteconfig.googleapis.com^$important
+||firebaseinstallations.googleapis.com^$important
+||mobileexperiencemonitor.inside.telstra.com^$important
+||*app-measurement.com^$important
+!
+! Nasty websites
+||*intercom.io^$important #I despise Intercom, and any company that uses it should get in the bin.
+||graph.facebook.com^$important
+||click.e.bonds.com.au^$important
+||consent.cookiebot.com^$important
+!
+! Nasty hardwear that leaks data
+||lechmere.prod.ws.sonos.com^$important
+||lechmere-v1.sslauth.sonos.com^$important
