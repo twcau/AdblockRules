@@ -32,13 +32,15 @@
 ||*ablink.emails*^$important
 ||ad.crwdcntrl.net^$important
 ||adnxs.com^$important
-||outbrain.com^important
+||outbrain.com^$important
+||outbrainimg.com^$important
 !
 ! The Googlesphere
 ||firebaseremoteconfig.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
 ||googlesyndication.com^$important
 ||adservice.google.com^$important
+||adservice.google.com.au^$important
 ||*googleadservices*^$important
 ||googletagservices.com^$important
 ||googletagmaager.com^$important
