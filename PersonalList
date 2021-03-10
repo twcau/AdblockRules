@@ -1,10 +1,10 @@
 ! Title: PersonalList
 ! Description: A list of websites and domains that should be blocked, that aren't covered by other rules
 ! Format: adblock
-! Version: 0.01.01
+! Version: 0.01.02
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Tue, 09.03.2021 15:50
+! Updated: Wes, 10.03.2021 18:54
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/PersonalList
 ! --------------------------------------------
 !
@@ -32,10 +32,11 @@
 ||*imrworldwide*^$important
 ||*doubleclick*^$important #This one is even more restrictive/catches more.
 ||*ablink.emails*^$important
-||*googlesyndication*^$important
-||*adservice.google*^$important
+||googlesyndication.com^$important
+||adservice.google.com^$important
 ||ad.crwdcntrl.net^$important
 ||adnxs.com^$important
+||outbrain.com^important
 !
 ! Nasty apps
 ||firebaseremoteconfig.googleapis.com^$important
