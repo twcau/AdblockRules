@@ -26,21 +26,24 @@
 ||chalice-experience-api.cloud.seek.com.au^$important
 ||tracker.realitymine.com^$important
 ||*omtrdc*^$important
-||*googlesyndication*^$important
 ||*2mdn.net^$important
-||*googleadservices*^$important
 ||*imrworldwide*^$important
 ||*doubleclick*^$important #This one is even more restrictive/catches more.
 ||*ablink.emails*^$important
-||googlesyndication.com^$important
-||adservice.google.com^$important
 ||ad.crwdcntrl.net^$important
 ||adnxs.com^$important
 ||outbrain.com^important
 !
-! Nasty apps
+! The Googlesphere
 ||firebaseremoteconfig.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
+||googlesyndication.com^$important
+||adservice.google.com^$important
+||*googleadservices*^$important
+||googletagservices.com^$important
+||googletagmaager.com^$important
+!
+! Nasty apps
 ||mobileexperiencemonitor.inside.telstra.com^$important
 ||*app-measurement.com^$important
 !
