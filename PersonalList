@@ -1,10 +1,10 @@
 ! Title: PersonalList
 ! Description: A list of websites and domains that should be blocked, that aren't covered by other rules
 ! Format: adblock
-! Version: 0.01.02
+! Version: 0.01.03
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Wes, 10.03.2021 18:54
+! Updated: Sat, 13.03.2021 08:15
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/PersonalList
 ! --------------------------------------------
 !
@@ -17,23 +17,9 @@
 @@||api.sunrise-sunset.org^$important
 @@||ha-link.sailthru.com^$important
 !
-! gTLD's whose content can get lost
+! gTLD's whose content can get die in a fire
 ||*.ru^$important
 ||*.cn^$important
-!
-! Nasty advertisers and data suckers
-||tracking.engineering.cloud.seek.com.au^$important
-||chalice-experience-api.cloud.seek.com.au^$important
-||tracker.realitymine.com^$important
-||*omtrdc*^$important
-||*2mdn.net^$important
-||*imrworldwide*^$important
-||*doubleclick*^$important #This one is even more restrictive/catches more.
-||*ablink.emails*^$important
-||ad.crwdcntrl.net^$important
-||adnxs.com^$important
-||outbrain.com^$important
-||outbrainimg.com^$important
 !
 ! The Googlesphere
 ||firebaseremoteconfig.googleapis.com^$important
@@ -44,17 +30,52 @@
 ||*googleadservices*^$important
 ||googletagservices.com^$important
 ||googletagmaager.com^$important
+||embeddedassistant.googleapis.com^$important
+!
+! Intercom - a disaster of a support platform that should die in a fire
+||intercom.io^$important #I despise Intercom, and any company that uses it should get in the bin.
+||js.intercomcdn.com^$important
+||nexus-websocket-a.intercom.io^$important
+||api-iam.intercom.io^$important
+!
+! Amazon and their data suckers
+||amazon-adsystem.com^$important
+||api.amazonvideo.com^$important
 !
 ! Nasty apps
 ||mobileexperiencemonitor.inside.telstra.com^$important
 ||*app-measurement.com^$important
 !
 ! Nasty websites
-||*intercom.io^$important #I despise Intercom, and any company that uses it should get in the bin.
 ||graph.facebook.com^$important
 ||click.e.bonds.com.au^$important
 ||consent.cookiebot.com^$important
+||tracking.engineering.cloud.seek.com.au^$important
+||chalice-experience-api.cloud.seek.com.au^$important
 !
-! Nasty hardware that leaks data
+! Physical products that leak personal data and metrics
 ||lechmere.prod.ws.sonos.com^$important
 ||lechmere-v1.sslauth.sonos.com^$important
+!
+! Nasty advertisers and data suckers
+||tracker.realitymine.com^$important
+||*omtrdc*^$important
+||*2mdn.net^$important
+||*imrworldwide*^$important
+||*doubleclick*^$important #This one is even more restrictive/catches more.
+||*ablink.emails*^$important #Death to the rubbish Menulog tries and sends home from its app
+||ad.crwdcntrl.net^$important
+||adnxs.com^$important
+||outbrain.com^$important
+||outbrainimg.com^$important
+||bonzai.co^$important
+||lps.qantas.com^$important
+||ads-twitter.com^$important
+||adsafeprotected.com^$important
+||brandmetrics.com^$important
+||scorecardresearch.com^$important
+||sentry.io^$important
+||visitors.live^$important
+||cookie-oven.api.bbc.co.uk^$important
+||s.retargeted.co^$important
+||2mdn.net^$important
