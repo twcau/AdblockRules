@@ -1,32 +1,33 @@
 ! Title: MurdochList
 ! Description: blocks all websites affiliated with the Murdoch empire
 ! Format: adblock
-! Version: 0.02.02
+! Version: 0.02.03
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Sat, 27.02.2021 10:56
+! Updated: Sun, 28.02.2021 19.26
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList
 ! --------------------------------------------
 #
 # Purpose:
-# This blocklist blocks all content from Murdoch owned or affiliated websites, that can be used in any web browser, plugin,
-# or ad blocking app that supports the use of AdBlock-based rules.
+# This blocklist blocks all content from Murdoch owned or affiliated websites, that can be used in
+# any web browser, plugin, or ad blocking app that supports the use of AdBlock-based rules.
 #
 #
 # How to use?
-# Add the web address of this list as a subscription within your AdBlock client, and *shazam* - your internet experience
-# will be Murdochless.
+# Add the web address of this list as a subscription within your AdBlock client, and *shazam* -
+# your internet experience # will be Murdochless.
 # 
 #
 # Never used AdBlock rules before?
-# Explaination of AdBlock rules:
+# Explanation of AdBlock rules:
 # https://help.getadblock.com/support/solutions/articles/6000066909-introduction-to-filter-lists
 #
 # Clients and applications that support AdBlock rules: 
 # Plugins are available for use with most modern web browsers, on both desktop and mobile devices.
 # - For desktops and laptops, I personally recommend and trust AdBlock Plus: https://adblockplus.org/
 # - For mobile devices (iOS, Android), AdGuard is my go-to: https://adguard.com/en/products.html
-# - For home networks: User either of the following to cover all devices on your home internet connection.
+# - For home networks: User either of the following to cover all devices on your home internet
+#   connection.
 #   * Pi-Hole (https://pi-hole.net/), or
 #   * AdGuard Home (https://adguard.com/en/adguard-home/overview.html) 
 #
@@ -130,7 +131,7 @@
 ||stocksinvalue.com.au^
 ||storyful.com^
 ||suddenly.com.au^
-||sunshinecoastdaily.com.au&
+||sunshinecoastdaily.com.au^
 ||supercoach.com.au^
 ||talksport.com^
 ||taste.com.au^
