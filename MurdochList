@@ -1,10 +1,10 @@
 ! Title: MurdochList
 ! Description: blocks all websites affiliated with the Murdoch empire
 ! Format: adblock
-! Version: 0.02.03
+! Version: 0.03.01
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Sun, 14.03.2021 19:26
+! Updated: Sun, 14.03.2021 19:56
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList
 ! --------------------------------------------
 #
@@ -46,6 +46,7 @@
 ||advertiser.com.au^
 ||amplify.com^
 ||australiannewschannel.com.au^
+||avail.co^
 ||ballinaadvocate.com.au^
 ||barrons.com^
 ||bestrecipes.com.au^
@@ -64,9 +65,16 @@
 ||dailytelegraph.com.au^
 ||dalbyherald.com.au^
 ||delicious.com.au^
+||doorsteps.com^
+||dreamteamfc.com^
+||driving.co.uk^
 ||dowjones.com^
+||eccobooks.com^
+||encountersdating.co.uk^
 ||escape.com.au^
 ||eurekareport.com.au^
+||fabulousbingo.co.uk^
+||fifth.co^
 ||fnlondon.com^
 ||foxbusiness.com^
 ||foxnews.com^
@@ -85,6 +93,7 @@
 ||goldcoastbulletin.com.au^
 ||gq.com.au^
 ||gympietimes.com.au^
+||harlequin.com^
 ||harpercollins.com^
 ||heraldsun.com.au^
 ||hipages.com.au^
@@ -94,18 +103,25 @@
 ||kidspot.com.au^
 ||knewz.com^
 ||learningseat.com.au^
+||listhub.com^
 ||marketwatch.com^
 ||mediumrarecontent.com^
 ||mogo.com.au^
 ||moshtix.com.au^
 ||mosmandaily.com.au^
+||moving.com^
 ||news-mail.com.au^
 ||news.co.uk^
 ||news.com.au^
+||news.co.uk^
 ||newsamerica.com^
+||newscommercial.co.uk^
 ||newscorp.com^
 ||newscorpaustralia.com^
 ||newslocal.smedia.com.au^
+||newsprinters.co.uk^
+||newsspace.com.au^
+||newssyndication.co.uk^
 ||noosanews.com.au^
 ||northernstar.com.au^
 ||northshoretimes.com.au^
@@ -119,6 +135,7 @@
 ||qt.com.au^
 ||questnews.com.au^
 ||rea-group.com^
+||realtor.com^
 ||realcommercial.com.au^
 ||realestate.com.au^
 ||shopferret.com.au^
@@ -130,28 +147,37 @@
 ||stanthorpeborderpost.com.au^
 ||stocksinvalue.com.au^
 ||storyful.com^
+||sundaytimeswineclub.co.uk^
 ||suddenly.com.au^
+||sunbingo.co.uk^
+||sunmotors.co.uk^
 ||sunshinecoastdaily.com.au^
 ||supercoach.com.au^
 ||talksport.com^
 ||taste.com.au^
+||timescurrencyservices.co.uk^
 ||theaustralian.com.au^
 ||thechronicle.com.au^
 ||themercury.com.au^
 ||themorningbulletin.com.au^
+||thescottishsun.co.uk^
 ||thesun.co.uk^
+||the-sun.com^
+||the-tls.co.uk^
 ||thesundaytimes.co.uk^
 ||thetimes.co.uk^
 ||theweeklytimes.com.au^
 ||townsvillebulletin.com.au^
 ||traderoo.com.au^
 ||tweeddailynews.com.au^
+||virginradio.co.uk^
 ||vogue.com.au^
 ||warwickdailynews.com.au^
 ||weeklytimesnow.com.au^
+||wirelessgroup.co.uk^
 ||wego.com.au^
 ||wentworthcourier.com.au^
 ||whereilive.com.au^
 ||whitsundaytimes.com.au^
 ||wsj.com^
-||the-sun.com^
+||zondervan.com^
