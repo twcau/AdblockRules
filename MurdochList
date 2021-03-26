@@ -1,10 +1,10 @@
 ! Title: MurdochList
 ! Description: blocks all websites affiliated with the Murdoch empire
 ! Format: adblock
-! Version: 0.03.01
+! Version: 0.03.02
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Sun, 14.03.2021 19:56
+! Updated: Friday, 26.03.2021 16:00
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList
 ! --------------------------------------------
 #
@@ -99,6 +99,7 @@
 ||hipages.com.au^
 ||homelife.com.au^
 ||htande.com.au^
+||investors.com^
 ||kayosports.com.au^
 ||kidspot.com.au^
 ||knewz.com^
