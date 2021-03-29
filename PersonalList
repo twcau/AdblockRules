@@ -1,21 +1,107 @@
 ! Title: PersonalList
 ! Description: A list of websites and domains that should be blocked, that aren't covered by other rules
 ! Format: adblock
-! Version: 0.01.04
+! Version: 0.02.01
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Sun, 14.03.2021 19:29
+! Updated: Mon, 29.03.2021 18:35
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/PersonalList
 ! --------------------------------------------
 !
-! Content that is ok
+! eCommerce that is ok
 !
 @@||lecol.cc^$important
 @@||kickstarter.com^$important
 @@||indiegogo.com^$important
+@@||www.ozbargain.com.au^$important
+@@||files.ozbargain.com.au^$important
+@@||www.orbitkey.com.au^$important
+@@||tracking.shopback.com^$important
+@@||static.afterpay.com^$important
+!
+! eCommerce - Qantas domains that are ok
+@@||www.qantas.com^$important
+@@||www.qantas.com.au^$important
+@@||api.qantas.com^$important
+@@||accounts.qantas.com^$important
+@@||loyalty.qantas.com^$important
+@@||cdn.qantasloyalty.com^$important
+@@||cdn.qantasloyalty.com^$important
+@@||services.unique.qantas.com^$important
+@@||api.insurance.qantas.com^$important
+!
+! eCommerce - Amazon domains that are ok
+@@||images-na.ssl-images-amazon.com^$important
+@@||m.media-amazon.com^$important
+@@||images-fe.ssl-images-amazon.com^$important
+!
+! Services that are ok
+!
 @@||stats.transitapp.com^$important
 @@||api.sunrise-sunset.org^$important
 @@||ha-link.sailthru.com^$important
+@@||api.openweathermap.org^$important
+@@||zoo.rungap.com^$important
+@@||feed.adsbexchange.com^$important
+@@||sdk.foursquare.com^$important
+@@||api.textexpander.com^$important
+@@||api.foursquare.com^$important
+@@||freedome-vpn.net^$important
+@@||1password.com^$important
+@@||uber.com^$important
+@@||cn-geo1.uber.com^$important
+@@||hinge-res.cloudinary.com^$important
+@@||www.mainroads.wa.gov.au^$important
+@@||players.brightcove.net^$important
+@@||apollogur.download^$important
+!
+! Services - Twitter domains that are ok
+@@||twimg.com^$important
+@@||api.twitter.com^$important
+@@||upload.twitter.com^$important
+@@||platform.twitter.com^$important
+!
+! Services - Giphy domains that are ok
+@@||media3.giphy.com^$important
+@@||media4.giphy.com^$important
+@@||media2.giphy.com^$important
+@@||media0.giphy.com^$important
+@@||media1.giphy.com^$important
+@@||limited-prod.giphy.map.fastly.net^$important
+@@||api.giphy.com^$important
+!
+! Services - Microsoft domains that are ok
+@@||1drv.com^$important
+@@||sharepoint.com^$important
+@@||api.cortana.ai^$important
+@@||outlook-office-com.k-0002.k-msedge.net^$important
+@@||prod-collecticon.outlookmobile.com^$important
+@@||outlookmobile-office365-tas.msedge.net^$important
+@@||mel-mvp.trafficmanager.net^$important
+@@||trafficmanager.net^$important
+!
+! Services - Facebook domains that are ok
+@@||www.instagram.com^$important
+@@||workplace.com^$important
+@@||static.xx.fbcdn.net^$important
+@@||fbcdn.net^$important
+!
+! Services - Apple domains that are ok
+@@||play.itunes.apple.com.edgesuite.net^$important
+@@||setup.icloud.com^$important
+@@||gateway.icloud.com^$important
+@@||world-gen.g.aaplimg.com^$important
+@@||updates-http.cdn-apple.com^$important
+@@||p25-fmf.icloud.com^$important
+@@||mzstatic.com^$important
+!
+! Services - Telstra domains that are ok
+@@||plus.telstra.com.au^$important
+@@||myid.telstra.com^$important
+@@||services.telstra.com^$important
+!
+! Websites that are ok
+
 !
 ! gTLD's whose content can get die in a fire
 ||*.ru^$important
@@ -32,6 +118,10 @@
 ||googletagmaager.com^$important
 ||embeddedassistant.googleapis.com^$important
 ||tpc.googlesyndication.com^important
+||firebaselogging-pa.googleapis.com^$important
+!
+! The Adobesphere
+||demdex.net^$important
 !
 ! Intercom - a disaster of a support platform that should die in a fire
 ||intercom.io^$important #I despise Intercom, and any company that uses it should get in the bin.
@@ -42,6 +132,9 @@
 ! Amazon and their data suckers
 ||amazon-adsystem.com^$important
 ||api.amazonvideo.com^$important
+!
+! The Applesphere
+||cma-china.itunes-apple.com.akadns.net^$important
 !
 ! Nasty apps
 ||mobileexperiencemonitor.inside.telstra.com^$important
@@ -66,6 +159,7 @@
 ||*imrworldwide*^$important
 ||*doubleclick*^$important #This one is even more restrictive/catches more.
 ||*ablink.emails*^$important #Death to the rubbish Menulog tries and sends home from its app
+||ablink.emails.menulog.com.au^$important
 ||ad.crwdcntrl.net^$important
 ||adnxs.com^$important
 ||outbrain.com^$important
