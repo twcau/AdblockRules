@@ -1,10 +1,10 @@
 ! Title: PersonalList
 ! Description: A list of websites and domains that should be blocked, that aren't covered by other rules
 ! Format: adblock
-! Version: 0.02.01
+! Version: 0.02.02
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Mon, 29.03.2021 18:35
+! Updated: Mon, 29.03.2021 18:44
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/PersonalList
 ! --------------------------------------------
 !
@@ -54,6 +54,7 @@
 @@||www.mainroads.wa.gov.au^$important
 @@||players.brightcove.net^$important
 @@||apollogur.download^$important
+@@||parcelapp.net^$important
 !
 ! Services - Twitter domains that are ok
 @@||twimg.com^$important
