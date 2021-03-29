@@ -1,10 +1,10 @@
 ! Title: MurdochList
 ! Description: blocks all websites affiliated with the Murdoch empire
 ! Format: adblock
-! Version: 0.03.02
+! Version: 0.03.03
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Friday, 26.03.2021 16:00
+! Updated: Mon, 29.03.2021 20:04
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList
 ! --------------------------------------------
 #
@@ -57,8 +57,10 @@
 ||cairnspost.com.au^
 ||careerone.com.au^
 ||carsguide.com.au^
+||cliffsnotes.com^
 ||coffscoastadvocate.com.au^
 ||couriermail.com.au^
+||curiousgeorge.com^
 ||cqnews.com.au^
 ||dailyexaminer.com.au^
 ||dailymercury.com.au^
@@ -97,7 +99,9 @@
 ||harpercollins.com^
 ||heraldsun.com.au^
 ||hipages.com.au^
+||hmhbooks.com^
 ||homelife.com.au^
+||
 ||htande.com.au^
 ||investors.com^
 ||kayosports.com.au^
