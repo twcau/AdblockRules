@@ -9,7 +9,7 @@ This is where you'll find the AdBlock rules I use, and some of the rulesets I've
 
 # Other useful lists
 
-- [My list of lists](https://github.com/twcau/AdblockRules/blob/master/ListSources.MD) - Summary of the lists I use for Adblocking
+- [My list of lists](https://github.com/twcau/AdblockRules/blob/master/ListSources.MD) - Summary of the other lists I use for Adblocking
 
 # How to use?
 
@@ -35,3 +35,5 @@ And if you don't - send me a tweet: https://twitter.com/twcau
 
 * [DeDupe Lists](http://www.textwidgets.com/dedupelist.html)
 * [Rule redundancy checker](https://abpvn.com/ruleChecker/redundantRuleChecker.html)
+* [Konbert large JSON to CSV converter](https://konbert.com/convert/json/to/csv)
+* [Shodan](https://beta.shodan.io/) - To help identify News Corp sites by the [information in their SSL Certificates](https://beta.shodan.io/search?query=ssl%3A"News+Corp")
