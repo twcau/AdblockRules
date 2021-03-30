@@ -1,10 +1,10 @@
 ! Title: MurdochList
 ! Description: blocks all websites affiliated with the Murdoch empire
 ! Format: adblock
-! Version: 0.03.10
+! Version: 0.03.11
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Tue, 30.03.2021 20:11
+! Updated: Tue, 30.03.2021 20:21
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList
 ! --------------------------------------------
 #
@@ -42,10 +42,13 @@
 # 
 #
 # ---Murdoch owned or affiliated websites---
-||1degree.com.au
+||1degree.com.au^
+||360roundtable.com.au^
 ||adelaidenow.com.au^
 ||advertiser.com.au^
 ||amplify.com^
+||anzaclive.com.au^
+||aussiesharkattacks.com.au^
 ||australiannewschannel.com.au^
 ||avail.co^
 ||ballinaadvocate.com.au^
@@ -69,6 +72,7 @@
 ||dailytelegraph.com.au^
 ||dalbyherald.com.au^
 ||delicious.com.au^
+||delicious100.com.au^
 ||doorsteps.com^
 ||dreamteamfc.com^
 ||driving.co.uk^
@@ -104,6 +108,7 @@
 ||hmhbooks.com^
 ||homelife.com.au^
 ||htande.com.au^
+||icatchkillers.com.au^
 ||intheknow.com.au^
 ||investors.com^
 ||kayosports.com.au^
@@ -118,21 +123,23 @@
 ||mosmandaily.com.au^
 ||moving.com^
 ||nativeincolour.com.au^
+||newcastlenewslocal.com.au
 ||news-mail.com.au^
 ||news.co.uk^
 ||news.com.au^
 ||news.net.au^
 ||newsadds.com.au^
+||newsamerica.com^
 ||newsapi.com.au^
 ||newscdn.com.au^
-||newsamerica.com^
-||newcastlenewslocal.com.au
 ||newscommercial.co.uk^
 ||newsconcierge.com.au^
+||newsconnect.com.au^
 ||newscorp.com^
 ||newscorpaustralia.com^
 ||newsint.co.uk^
 ||newslocal.smedia.com.au^
+||newsnativenetwork.com.au^
 ||newsprestigenetwork.com.au^
 ||newsprinters.co.uk^
 ||newsspace.com.au^
@@ -146,6 +153,7 @@
 ||nypost.com^
 ||odds.com.au^
 ||onebigswitch.com.au^
+||onguardseries.com.au^
 ||perthnow.com.au^
 ||placemyad.com.au^
 ||postcourier.com.pg^
@@ -156,16 +164,21 @@
 ||realtor.com^
 ||realcommercial.com.au^
 ||realestate.com.au^
+||rich100.com.au^
+||roundtable.com.au^
 ||savvyshopper.net.au^
 ||shopferret.com.au^
 ||skynews.com.au^
 ||skyweather.com.au^
+||smartdaily.com.au^
 ||smartsource.com^
 ||societyone.com.au^
 ||southburnetttimes.com.au^
+||spelling-bee.com.au^
 ||stanthorpeborderpost.com.au^
 ||stocksinvalue.com.au^
 ||storyful.com^
+||storytimewithjimmybarnes.com.au^
 ||sundaytimeswineclub.co.uk^
 ||suddenly.com.au^
 ||sunbingo.co.uk^
@@ -175,11 +188,13 @@
 ||talksport.com^
 ||taste.com.au^
 ||timescurrencyservices.co.uk^
+||thanksamillion.net.au^
 ||theaustralian.com.au^
 ||thechronicle.com.au^
 ||themercury.com.au^
 ||themessengeradelaide.com.au^
 ||themorningbulletin.com.au^
+||thenightwatch.com.au^
 ||thescottishsun.co.uk^
 ||thesun.co.uk^
 ||the-sun.com^
@@ -187,6 +202,7 @@
 ||thesundaytimes.co.uk^
 ||thetimes.co.uk^
 ||theweeklytimes.com.au^
+||top50homes.com.au^
 ||townsvillebulletin.com.au^
 ||traderoo.com.au^
 ||tweeddailynews.com.au^
