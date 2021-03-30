@@ -1,10 +1,10 @@
 ! Title: MurdochList
 ! Description: blocks all websites affiliated with the Murdoch empire
 ! Format: adblock
-! Version: 0.03.03
+! Version: 0.03.10
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
-! Updated: Mon, 29.03.2021 20:04
+! Updated: Tue, 30.03.2021 20:11
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList
 ! --------------------------------------------
 #
@@ -42,6 +42,7 @@
 # 
 #
 # ---Murdoch owned or affiliated websites---
+||1degree.com.au
 ||adelaidenow.com.au^
 ||advertiser.com.au^
 ||amplify.com^
@@ -58,6 +59,7 @@
 ||careerone.com.au^
 ||carsguide.com.au^
 ||cliffsnotes.com^
+||cnivogue.com.au^
 ||coffscoastadvocate.com.au^
 ||couriermail.com.au^
 ||curiousgeorge.com^
@@ -102,6 +104,7 @@
 ||hmhbooks.com^
 ||homelife.com.au^
 ||htande.com.au^
+||intheknow.com.au^
 ||investors.com^
 ||kayosports.com.au^
 ||kidspot.com.au^
@@ -114,18 +117,28 @@
 ||moshtix.com.au^
 ||mosmandaily.com.au^
 ||moving.com^
+||nativeincolour.com.au^
 ||news-mail.com.au^
 ||news.co.uk^
 ||news.com.au^
-||news.co.uk^
+||news.net.au^
+||newsadds.com.au^
+||newsapi.com.au^
+||newscdn.com.au^
 ||newsamerica.com^
+||newcastlenewslocal.com.au
 ||newscommercial.co.uk^
+||newsconcierge.com.au^
 ||newscorp.com^
 ||newscorpaustralia.com^
+||newsint.co.uk^
 ||newslocal.smedia.com.au^
+||newsprestigenetwork.com.au^
 ||newsprinters.co.uk^
 ||newsspace.com.au^
 ||newssyndication.co.uk^
+||newsxtend.com.au^
+||nlm.io^
 ||noosanews.com.au^
 ||northernstar.com.au^
 ||northshoretimes.com.au^
@@ -134,6 +147,7 @@
 ||odds.com.au^
 ||onebigswitch.com.au^
 ||perthnow.com.au^
+||placemyad.com.au^
 ||postcourier.com.pg^
 ||punters.com.au^
 ||qt.com.au^
@@ -142,6 +156,7 @@
 ||realtor.com^
 ||realcommercial.com.au^
 ||realestate.com.au^
+||savvyshopper.net.au^
 ||shopferret.com.au^
 ||skynews.com.au^
 ||skyweather.com.au^
@@ -163,6 +178,7 @@
 ||theaustralian.com.au^
 ||thechronicle.com.au^
 ||themercury.com.au^
+||themessengeradelaide.com.au^
 ||themorningbulletin.com.au^
 ||thescottishsun.co.uk^
 ||thesun.co.uk^
@@ -178,10 +194,11 @@
 ||vogue.com.au^
 ||warwickdailynews.com.au^
 ||weeklytimesnow.com.au^
-||wirelessgroup.co.uk^
 ||wego.com.au^
-||wentworthcourier.com.au^
 ||whereilive.com.au^
+||wirelessgroup.co.uk^
+||wentworthcourier.com.au^
+||whimn.com.au^
 ||whitsundaytimes.com.au^
 ||wsj.com^
 ||zondervan.com^
