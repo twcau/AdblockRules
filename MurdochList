@@ -1,7 +1,7 @@
 ! Title: MurdochList
 ! Description: blocks all websites affiliated with the Murdoch empire
 ! Format: adblock
-! Version: 0.03.11
+! Version: 0.03.11a
 ! Expires: 1 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
 ! Updated: Tue, 30.03.2021 20:21
@@ -15,7 +15,7 @@
 #
 # How to use?
 # Add the web address of this list as a subscription within your AdBlock client, and *shazam* -
-# your internet experience # will be Murdochless.
+# your internet experience will be Murdochless.
 # 
 #
 # Never used AdBlock rules before?
@@ -165,7 +165,6 @@
 ||realcommercial.com.au^
 ||realestate.com.au^
 ||rich100.com.au^
-||roundtable.com.au^
 ||savvyshopper.net.au^
 ||shopferret.com.au^
 ||skynews.com.au^
