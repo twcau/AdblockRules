@@ -1,8 +1,8 @@
 # Michael H's custom blocking list
 # Sony Android TV's with streaming services enabled
 # 
-# Version 0.1.02
-# Last updated 16.02.2021 1330hrs AWST
+# Version 0.1.03
+# Last updated 26.04.2021 1626hrs AWST
 #
 #
 # Purpose:
@@ -29,28 +29,21 @@
 # This list is based on the work of https://github.com/d43m0nhLInt3r/socialblocklists
 # 
 # ---Google Android TV nasties---
-# ||connectivitycheck.gstatic.com
-# ||googlevideo.com^ ! Closing off all domains that push Google video advertising.
 ||cert-test.sandbox.google.com^
 ||googleads.g.doubleclick.net^
 ||www.google-analytics.com^
 # 
 # ---Sony Bravia---
-||ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv^
-||ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv^
+||ssm1.internet.sony.tv^
 ||api-mf1.meta.ndmdhs.com^
 ||b02.black.ndmdhs.com^
 ||bravia.dl.playstation.net^
 ||call.me.sel.sony.com^
 ||flingo.tv^
 ||sonybivstatic-a.akamaihd.net^
-||ssm1.internet.sony.tv^
-||ad8641f3cff742de893d919add74c2bb.ssm1.internet.sony.tv^
-||ad8641f3cff742de893d919add74c2bb.ssm2.internet.sony.tv^
 ||bravia.dl.playstation.net^
 ||call.me.sel.sony.com^
 ||ssm1.internet.sony.tv^
-||sonybivstatic-a.akamaihd.net^
 # Note: Do not block
 # The following domains are needed for applications
 @@||applicast.ga.sony.net^
