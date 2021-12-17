@@ -1,7 +1,7 @@
 ! Title: CytroxList
-! Description: blocks all known websites affiliated with the recent analysis of the surveillance for hire provider Cytrox
+! Description: stops traffic associated with domains known to be from the surveillance-for-hire firm Cytrox and related entities
 ! Format: adblock
-! Version: 0.01.01a
+! Version: 0.01.02a
 ! Expires: 7 day (update frequency)
 ! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
 ! Updated: Tue, 30.03.2021 20:21
