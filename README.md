@@ -37,4 +37,5 @@ And if you don't - send me a tweet: https://twitter.com/twcau
 * [DeDupe Lists](http://www.textwidgets.com/dedupelist.html)
 * [Rule redundancy checker](https://abpvn.com/ruleChecker/redundantRuleChecker.html)
 * [Konbert large JSON to CSV converter](https://konbert.com/convert/json/to/csv)
-* [Shodan](https://beta.shodan.io/) - To help identify News Corp sites by the [information in their SSL Certificates](https://beta.shodan.io/search?query=ssl%3A"News+Corp")
+* [Shodan](https://beta.shodan.io/) - To help identify affiliated websites of a company based on the information in their SSL certificates.
+  Example: News Corp sites - (https://beta.shodan.io/search?query=ssl%3A"News+Corp") (Shodan subscription required)
