@@ -1,8 +1,8 @@
 # Michael H's custom blocking list
 # Sony Android TV's with streaming services enabled
 # 
-# Version 0.1.03
-# Last updated 26.04.2021 1626hrs AWST
+# Version 0.1.04
+# Last updated 17.12.2021 1338hrs AWST
 #
 #
 # Purpose:
@@ -41,9 +41,6 @@
 ||call.me.sel.sony.com^
 ||flingo.tv^
 ||sonybivstatic-a.akamaihd.net^
-||bravia.dl.playstation.net^
-||call.me.sel.sony.com^
-||ssm1.internet.sony.tv^
 # Note: Do not block
 # The following domains are needed for applications
 @@||applicast.ga.sony.net^
