@@ -1,0 +1,187 @@
+! Title: AppleEnterpriseList
+! Description: Assists with allowing content for Apple Services and Systems
+! Format: adblock
+! Version: 0.01.01
+! Expires: 1 day (update frequency)
+! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
+! Updated: Tue, 12.12.2022 20:30 AWST
+! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/AppleEnterpriseList
+! --------------------------------------------
+#
+# Purpose:
+# This whitelist allows Apple domains that are included in the following Knowledge Base article:
+# Use Apple products on enterprise networks
+# https://support.apple.com/en-au/HT210060
+#
+#
+# Notes:
+# 1) The domain doh.dns.apple.com is intentionally exckuded, to prevent Apple services going around
+#    your DNS Block/White Lists with alternative DNS resolution.
+# 2) All domains noted by Apple as being for China Mainlain are also excluded, to help avoid data
+#    transmission to or via the Peoples Republic of China (PRC).
+#
+#
+# How to use?
+# Add the web address of this list as a whitelist within your AdBlock or server.
+# 
+#
+# Never used AdBlock rules before?
+# Explanation of AdBlock rules:
+# https://help.getadblock.com/support/solutions/articles/6000066909-introduction-to-filter-lists
+#
+# Clients and applications that support AdBlock rules: 
+# Plugins are available for use with most modern web browsers, on both desktop and mobile devices.
+# - For desktops and laptops, I personally recommend and trust AdBlock Plus: https://adblockplus.org/
+# - For mobile devices (iOS, Android), AdGuard is my go-to: https://adguard.com/en/products.html
+# - For home networks: User either of the following to cover all devices on your home internet
+#   connection.
+#   * Pi-Hole (https://pi-hole.net/), or
+#   * AdGuard Home (https://adguard.com/en/adguard-home/overview.html) 
+#
+#
+# Want to add something to the list?
+# If you know how to use Github, go forth and commit. 
+# And if you don't - send me a tweet: https://twitter.com/twcau
+# 
+#
+# ---Device setup---
+@@||albert.apple.com^$important | Device activation, iOS, iPadOS, tvOS and macOS
+@@||captive.apple.com^$important | Internet connectivity validation for networks that use captive portals, iOS, iPadOS, tvOS and macOS
+@@||gs.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||humb.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||static.ips.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||sq-device.apple.com^$important | eSIM activation, iOS and iPadOS
+@@||tbsc.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||time-ios.apple.com^$important | Used by devices to set their date and time, iOS, iPadOS and tvOS
+@@||time.apple.com^$important | Used by devices to set their date and time, iOS, iPadOS, tvOS and macOS
+@@||time-macos.apple.com^$important | Used by devices to set their date and time, macOS only
+# ---MDM Device management---
+@@||albert.apple.com^$important | Device activation, iOS, iPadOS, tvOS and macOS
+@@||captive.apple.com^$important | Internet connectivity validation for networks that use captive portals, iOS, iPadOS, tvOS and macOS
+@@||gs.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||humb.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||static.ips.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||sq-device.apple.com^$important | eSIM activation, iOS and iPadOS
+@@||tbsc.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||time-ios.apple.com^$important | Used by devices to set their date and time, iOS, iPadOS and tvOS
+@@||time.apple.com^$important | Used by devices to set their date and time, iOS, iPadOS, tvOS and macOS
+@@||time-macos.apple.com^$important | Used by devices to set their date and time, macOS only
+# ---Apple Business Manager and Apple School Manager---
+@@||albert.apple.com^$important | Device activation, iOS, iPadOS, tvOS and macOS
+@@||captive.apple.com^$important | Internet connectivity validation for networks that use captive portals, iOS, iPadOS, tvOS and macOS
+@@||gs.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||humb.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||static.ips.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||sq-device.apple.com^$important | eSIM activation, iOS and iPadOS
+@@||tbsc.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||time-ios.apple.com^$important | Used by devices to set their date and time, iOS, iPadOS and tvOS
+@@||time.apple.com^$important | Used by devices to set their date and time, iOS, iPadOS, tvOS and macOS
+@@||time-macos.apple.com^$important | Used by devices to set their date and time, macOS only
+@@||ws-ee-maidsvc.icloud.com^$important | User lookup service, iOS, iPadOS and macOS
+# ---Apple Business Essentials device management---
+@@||axm-adm-enroll.apple.com^$important | DEP enrolment server, iOS, iPadOS, tvOS and macOS
+@@||axm-adm-mdm.apple.com^$important | MDM server, iOS, iPadOS, tvOS and macOS
+@@||axm-adm-scep.apple.com^$important | SCEP server, iOS, iPadOS, tvOS and macOS
+@@||axm-app.apple.com^$important | View and manage apps and devices, iOS, iPadOS and macOS
+@@||apple-mapkit.com^$important | View the location of devices in Managed Lost Mode, iOS and iPadOS
+@@||icons.axm-usercontent-apple.com^$important | Custom Package icons, macOS
+# ---Classroom and Classwork---
+@@||s.mzstatic.com^$important | Classroom and Classwork device verification, iPadOS and macOS
+@@||play.itunes.apple.com^$important | Classroom and Classwork device verification, iPadOS and macOS
+@@||ws-ee-maidsvc.icloud.com^$important | Classroom and Classwork class roster service, iPadOS and macOS
+@@||ws.school.apple.com^$important | Classroom and Classwork class roster service, iPadOS and macOS
+@@||pg-bootstrap.itunes.apple.com^$important | Classwork handout service, iPadOS
+@@||cls-iosclient.itunes.apple.com^$important | Classwork handout service, iPadOS
+@@||cls-ingest.itunes.apple.com^$important | Classwork handout service, iPadOS
+# ---Software updates---
+@@||appldnld.apple.com^$important | iOS, iPadOS and watchOS updates, iOS, iPadOS and watchOS
+@@||configuration.apple.com^$important | Rosetta 2 updates, macOS only
+@@||gdmf.apple.com^$important | Software update catalogue, iOS, iPadOS, tvOS, watchOS and macOS
+@@||gg.apple.com^$important | iOS, iPadOS, tvOS, watchOS and macOS updates, iOS, iPadOS, tvOS, watchOS and macOS
+@@||gs.apple.com^$important | iOS, iPadOS, tvOS, watchOS and macOS updates, iOS, iPadOS, tvOS, watchOS and macOS
+@@||ig.apple.com^$important | macOS updates, macOS only
+@@||mesu.apple.com^$important | Hosts software update catalogues, iOS, iPadOS, tvOS, watchOS and macOS
+@@||ns.itunes.apple.com^$important | , iOS, iPadOS and watchOS
+@@||oscdn.apple.com^$important | macOS Recovery, macOS only
+@@||osrecovery.apple.com^$important | macOS Recovery, macOS only
+@@||skl.apple.com^$important | macOS updates, macOS only
+@@||swcdn.apple.com^$important | macOS updates, macOS only
+@@||swdist.apple.com^$important | macOS updates, macOS only
+@@||swdownload.apple.com^$important | macOS updates, macOS only
+@@||swscan.apple.com^$important | macOS updates, macOS only
+@@||updates-http.cdn-apple.com^$important | Software update downloads, iOS, iPadOS, tvOS and macOS
+@@||updates.cdn-apple.com^$important | Software update downloads, iOS, iPadOS, tvOS and macOS
+@@||xp.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+# ---App Store---
+@@||itunes.apple.com^$important | Store content, such as apps, books and music, iOS, iPadOS, tvOS and macOS
+@@||apps.apple.com^$important | Store content, such as apps, books and music, iOS, iPadOS, tvOS and macOS
+@@||mzstatic.com^$important | Store content, such as apps, books and music, iOS, iPadOS, tvOS and macOS
+@@||itunes.apple.com^$important | , iOS, iPadOS, tvOS and macOS
+@@||ppq.apple.com^$important | Enterprise App validation, iOS, iPadOS, tvOS and macOS
+# ---Network provider updates---
+@@||appldnld.apple.com^$important | Mobile network provider bundle updates, iOS and iPadOS
+@@||appldnld.apple.com.edgesuite.net^$important | Mobile network provider bundle updates, iOS and iPadOS
+@@||itunes.com^$important | Network provider bundle update discovery, iOS and iPadOS
+@@||itunes.apple.com^$important | Network provider bundle update discovery, iOS and iPadOS
+@@||updates-http.cdn-apple.com^$important | Mobile network provider bundle updates, iOS and iPadOS
+@@||updates.cdn-apple.com^$important | Mobile network provider bundle updates, iOS and iPadOS
+# ---Content caching---
+@@||lcdn-registration.apple.com^$important | Server registration, macOS only
+@@||suconfig.apple.com^$important | Configuration, macOS only
+@@||xp-cdn.apple.com^$important | Reporting, macOS only
+@@||lcdn-locator.apple.com^$important | Content caching locator service, iOS, iPadOS, tvOS and macOS
+@@||serverstatus.apple.com^$important | Content caching client public IP determination, macOS only
+# ---App features---
+@@||api.apple-cloudkit.com^$important | App notarisation, macOS
+@@||appattest.apple.com^$important | App validation, Touch ID and Face ID authentication for websites, iOS, iPadOS and macOS
+# ---Beta updates---
+@@||bpapi.apple.com^$important | Beta update enrolment, iOS, iPadOS, tvOS, watchOS and macOS
+@@||cssubmissions.apple.com^$important | Used by Feedback Assistant to upload files, iOS, iPadOS, tvOS and macOS
+@@||fba.apple.com^$important | Used by Feedback Assistant to file and view feedback, iOS, iPadOS, tvOS and macOS
+# ---Apple diagnostics---
+@@||diagassets.apple.com^$important | Used by Apple devices to help detect possible hardware issues, iOS, iPadOS, tvOS and macOS
+# ---Certificate validation---
+@@||certs.apple.com^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+@@||crl.apple.com^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+@@||crl.entrust.net^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+@@||crl3.digicert.com^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+@@||crl4.digicert.com^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+@@||ocsp.apple.com^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+@@||ocsp.digicert.com^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+@@||ocsp.entrust.net^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+@@||ocsp2.apple.com^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+@@||valid.apple.com^$important | Certificate validation, iOS, iPadOS, tvOS and macOS
+# ---Apple ID---
+@@||appleid.apple.com^$important | Apple ID authentication in Settings and System Preferences, iOS, iPadOS, tvOS and macOS
+@@||appleid.cdn-apple.com^$important | Apple ID authentication in Settings and System Preferences, iOS, iPadOS, tvOS and macOS
+@@||idmsa.apple.com^$important | Apple ID authentication, iOS, iPadOS, tvOS and macOS
+@@||gsa.apple.com^$important | Apple ID authentication, iOS, iPadOS, tvOS and macOS
+# ---iCloud---
+@@||apple-cloudkit.com^$important | iCloud services, iOS, iPadOS, tvOS and macOS
+@@||apple-livephotoskit.com^$important | iCloud services, iOS, iPadOS, tvOS and macOS
+@@||cdn-apple.com^$important | iCloud services, iOS, iPadOS, tvOS and macOS
+@@||gc.apple.com^$important | iCloud services, iOS, iPadOS, tvOS and macOS
+@@||icloud.com^$important | iCloud services, iOS, iPadOS, tvOS and macOS
+@@||icloud.apple.com^$important | iCloud services, iOS, iPadOS, tvOS and macOS
+@@||icloud-content.com^$important | iCloud services, iOS, iPadOS, tvOS and macOS
+@@||iwork.apple.com^$important | iWork documents, iOS, iPadOS, tvOS and macOS
+@@||mask.icloud.com^$important | iCloud Private Relay, iOS, iPadOS, macOS
+@@||mask-h2.icloud.com^$important | iCloud Private Relay, iOS, iPadOS, macOS
+@@||mask-api.icloud.com^$important | iCloud Private Relay, iOS, iPadOS, macOS
+# ---Siri and Search---
+@@||guzzoni.apple.com^$important | Siri and dictation requests, iOS, iPadOS and macOS
+@@||smoot.apple.com^$important | Search services, including Siri, Spotlight, Lookup, Safari, News, Messages and Music, iOS, iPadOS and macOS
+# ---Associated Domains---
+@@||app-site-association.cdn-apple.com^$important | Associated domains for universal links, iOS, iPadOS and macOS
+@@||app-site-association.networking.apple^$important | Associated domains for universal links, iOS, iPadOS and macOS
+# ---Tap to Pay on iPhone---
+@@||pos-device.apple.com^$important | Tap to Pay on iPhone, iOS
+@@||humb.apple.com^$important | Tap to Pay on iPhone setup, iOS
+@@||phonesubmissions.apple.com^$important | Optional analytics sharing, iOS
+# ---Additional content---
+@@||audiocontentdownload.apple.com^$important | GarageBand downloadable content, iOS, iPadOS and macOS
+@@||devimages-cdn.apple.com^$important | Xcode downloadable components, macOS only
+@@||download.developer.apple.com^$important | Xcode downloadable components, macOS only
+@@||playgrounds-assets-cdn.apple.com^$important | Swift Playgrounds, iPadOS and macOS
+@@||playgrounds-cdn.apple.com^$important | Swift Playgrounds, iPadOS and macOS
+@@||sylvan.apple.com^$important | Apple TV screen savers, tvOS only
