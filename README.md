@@ -3,6 +3,11 @@ This is where you'll find the AdBlock rules I use, and some of the rulesets I've
 
 # My lists
 
+## Allow lists
+- AppleEnterpriseList: https://raw.githubusercontent.com/twcau/AdblockRules/master/AppleEnterpriseList ([AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FAppleEnterpriseList&amp;title=AppleEnterpriseList))
+- Microsoft Allowed Domains: https://raw.githubusercontent.com/twcau/AdblockRules/master/MicrosoftAllowed ([AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%MicrosoftAllowed&amp;title=MicrosoftAllowed))
+
+## Block lists
 - MurdochList (blocks all websites affiliated with the Murdoch empire): https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList ([AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FMurdochList&amp;title=MurdochList))
 - CustomSonyTVList (stops unnecessary traffic from Smart TV's dead in their tracks): https://raw.githubusercontent.com/twcau/AdblockRules/master/CustomSonyTVList ([AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FCustomSonyTVList&amp;title=CustomSonyTVList))
 - CytroxList (stops traffic associated with the surveillance-for-hire firm Cytrox and known related entities): https://raw.githubusercontent.com/twcau/AdblockRules/master/CytroxList ([AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FCytroxList&amp;title=CytroxList))
