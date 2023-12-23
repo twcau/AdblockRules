@@ -117,6 +117,7 @@
 ! The Googlesphere
 @@||firebaseremoteconfig.googleapis.com^$important
 @@||firebaseinstallations.googleapis.com^$important
+@@||firebaselogging-pa.googleapis.com^$important
 ||app-measurement.com^$important
 ||googlesyndication.com^$important
 ||adservice.google.com^$important
@@ -126,7 +127,6 @@
 ||googletagmaager.com^$important
 ||embeddedassistant.googleapis.com^$important
 ||tpc.googlesyndication.com^important
-||firebaselogging-pa.googleapis.com^$important
 !
 ! The Adobesphere
 ||demdex.net^$important
