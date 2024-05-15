@@ -7,6 +7,11 @@
 ! Updated: Sat, 23.12.2023 1030
 ! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/PersonalList
 ! --------------------------------------------
+! DNS resolvers
+!
+@@||dns.quad9.net^$important
+@@||1dot1dot1dot1.cloudflare-dns.com^$important
+!
 ! gTLD's whose content can get die in a fire
 ||.cn^$important
 ||.hk^$important
@@ -373,4 +378,3 @@
 @@||mesu.apple.com^$important
 @@||init.itunes.apple.com^$important
 @@||bag.itunes.apple.com^$important
-@@||dns.quad9.net^$important
