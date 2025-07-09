@@ -15,10 +15,11 @@
 #
 #
 # Notes:
-# 1) The domain doh.dns.apple.com is intentionally exckuded, to prevent Apple services going around
+# 1) The domain doh.dns.apple.com is intentionally excluded, to prevent Apple services going around
 #    your DNS Block/White Lists with alternative DNS resolution.
 # 2) All domains noted by Apple as being for China Mainlain are also excluded, to help avoid data
 #    transmission to or via the Peoples Republic of China (PRC).
+# 3) All domains have comments to help you understand the purpose they are used for.
 #
 #
 # How to use?

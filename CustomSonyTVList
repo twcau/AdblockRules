@@ -1,8 +1,8 @@
-# Michael H's custom blocking list
+# Michael H's Custom Sony TV Blocking List
 # Sony Android TV's with streaming services enabled
 # 
-# Version 0.1.03
-# Last updated 26.04.2021 1626hrs AWST
+# Version 1.1
+# Last updated Wed, 9.07.2025 17:53 +0800
 #
 #
 # Purpose:
@@ -10,7 +10,8 @@
 #
 #
 # How to use?
-# Add the web address of this list as a subscription within your AdBlock client, and *shazam* - your internet experience will be Murdochless.
+# Add the web address of this list as a subscription within your AdBlock client, and *shazam* - your internet
+# experience will be Murdochless.
 # 
 #
 # Never used AdBlock rules before?
@@ -22,8 +23,8 @@
 # Plugins are available for use with most modern web browsers, on both desktop and mobile devices.
 # - For desktops and laptops, I personally recommend and trust AdBlock Plus: https://adblockplus.org/
 # - For mobile devices (iOS, Android), AdGuard is my go-to: https://adguard.com/en/products.html
-# - For home networks: Pi-Hole (https://pi-hole.net/), or AdGuard Home (https://adguard.com/en/adguard-home/overview.html) to cover all devices
-#   on your home internet connection.
+# - For home networks: Pi-Hole (https://pi-hole.net/), or AdGuard Home (https://adguard.com/en/adguard-home/overview.html) 
+#   to cover all devices on your home internet connection.
 # 
 # Credits:
 # This list is based on the work of https://github.com/d43m0nhLInt3r/socialblocklists

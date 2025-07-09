@@ -1,3 +1,46 @@
+! Title: MicrosoftAllowed
+! Description: Allows all appropriate websites for accessing Microsoft services
+! Format: adblock
+! Version: 1.01
+! Expires: 1 day (update frequency)
+! License: Creative Commons Zero v1.0 Universal, https://github.com/twcau/AdblockRules/blob/master/LICENSE
+! Updated: Tue, 9.07.2025 17:39:00 +0800
+! RAW: https://raw.githubusercontent.com/twcau/AdblockRules/master/MicrosoftAllowed
+! --------------------------------------------
+#
+# Purpose:
+# This blocklist blocks all content from Murdoch owned or affiliated websites, that can be used in
+# any web browser, plugin, or ad blocking app that supports the use of AdBlock-based rules.
+#
+#
+# How to use?
+# Add the web address of this list as a subscription within your AdBlock client, and *shazam* -
+# your internet experience will be Murdochless.
+# 
+#
+# Never used AdBlock rules before?
+# Explanation of AdBlock rules:
+# https://help.getadblock.com/support/solutions/articles/6000066909-introduction-to-filter-lists
+#
+# Clients and applications that support AdBlock rules: 
+# Plugins are available for use with most modern web browsers, on both desktop and mobile devices.
+# - For desktops and laptops, I personally recommend and trust AdBlock Plus: https://adblockplus.org/
+# - For mobile devices (iOS, Android), AdGuard is my go-to: https://adguard.com/en/products.html
+# - For home networks: User either of the following to cover all devices on your home internet
+#   connection.
+#   * Pi-Hole (https://pi-hole.net/), or
+#   * AdGuard Home (https://adguard.com/en/adguard-home/overview.html) 
+#
+#
+# Want to add something to the list?
+# If you know how to use Github, go forth and commit. 
+# And if you don't - send me a tweet: https://twitter.com/twcau
+#
+#
+# Initial sources:
+# https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide
+#
+# --- Permitted Domains and Rules ---
 *.aadrm.com
 *.acompli.net
 *.adl.windows.com
