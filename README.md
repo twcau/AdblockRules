@@ -13,6 +13,7 @@ This is where you'll find the AdBlock rules I use, and some of the rulesets I've
 	* [Want to add something to the list?](#Wanttoaddsomethingtothelist)
 * [Tools used for maintaining lists](#Toolsusedformaintaininglists)
 * [Credits](#Credits)
+* [Like to say thank you?](#Liketosaythankyou)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -76,3 +77,9 @@ And if you don't - send me a toot on Mastodon: https://mastodon.social/@twcau
 
 * MurdochList - Original author unknown, https://murdoch-block.ash.ms/adblock-plus.txt
 * CustomSonyTVList - d43m0nhLInt3r, https://github.com/d43m0nhLInt3r/socialblocklists
+
+## <a name='Liketosaythankyou'></a>Like to say thank you?
+
+Feel welcome to:
+
+[![Buy me a ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H61HXBX1)
