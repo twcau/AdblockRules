@@ -1,6 +1,5 @@
 The following are the lists I use and their information sources.
 
-| ----------------------------------------------------------------------------------------------------------------------------------- |
 | URL                                                                                                                                 | Name | Homepage | Notes |
 | :---------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------- | :----------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------ |
 | https://github.com/twcau/AdblockRules/raw/master/CustomSonyTVList                                                                   | AAA Michael H's custom list | https://github.com/twcau/AdblockRules/blob/master/CustomSonyTVList | This is just my own stuff, for things i'm fine with, but also things i'm not fine with that aren't picked up by any other rules |
