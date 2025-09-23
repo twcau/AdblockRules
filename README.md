@@ -25,18 +25,18 @@ This is where you'll find the AdBlock rules I use, and some of the rulesets I've
 
 ### <a name='Allowlists'></a>Allow lists
 
-| List name                 | Purpose                                                                                          | Links                                                                                                                                                                                                                                                                                            |
-| ------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| List name                 | Purpose                                                                                          | Links                                                                                                                                                                                                                                                                                                    |
+| ------------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | AppleEnterpriseList       | List of Apple domains that are normally necessary to interact with their sites and services.     | - [Raw](https://raw.githubusercontent.com/twcau/AdblockRules/master/AppleEnterpriseList)<br />- [AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FAppleEnterpriseList&amp;title=AppleEnterpriseList) |
 | Microsoft Allowed Domains | List of Microsoft domains that are normally necessary to interact with their sites and services. | - [Raw](https://raw.githubusercontent.com/twcau/AdblockRules/master/MicrosoftAllowed)<br />- [AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%MicrosoftAllowed&amp;title=MicrosoftAllowed)            |
  
 ### <a name='Blocklists'></a>Block lists
 
-| List name        | Purpose                                                                                        | Links                                                                                                                                                                                                                                                                                   |
-| ---------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MurdochList      | blocks all websites affiliated with the Murdoch empire                                         | - [Raw](https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList)<br />- [AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FMurdochList&amp;title=MurdochList)                |
+| List name        | Purpose                                                                                        | Links                                                                                                                                                                                                                                                                                           |
+| ---------------- | ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MurdochList      | blocks all websites affiliated with the Murdoch empire                                         | - [Raw](https://raw.githubusercontent.com/twcau/AdblockRules/master/MurdochList)<br />- [AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FMurdochList&amp;title=MurdochList) |
 | CustomSonyTVList | stops unnecessary traffic from Smart TV's dead in their tracks                                 | - [Raw](https://raw.githubusercontent.com/twcau/AdblockRules/master/CustomSonyTVList)<br />- [AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FCustomSonyTVList&amp;title=CustomSonyTVList) |
-| CytroxList       | stops traffic associated with the surveillance-for-hire firm Cytrox and known related entities | - [Raw](https://raw.githubusercontent.com/twcau/AdblockRules/master/CytroxList)<br />- [AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FCytroxList&amp;title=CytroxList)                    |
+| CytroxList       | stops traffic associated with the surveillance-for-hire firm Cytrox and known related entities | - [Raw](https://raw.githubusercontent.com/twcau/AdblockRules/master/CytroxList)<br />- [AdBlock Plus Subscription Link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Ftwcau%2FAdblockRules%2Fmaster%2FCytroxList&amp;title=CytroxList) |
 
 
 ## <a name='Otherusefullists'></a>Other useful lists
@@ -67,9 +67,10 @@ And if you don't - send me a toot on Mastodon: https://mastodon.social/@twcau
 
 ## <a name='Toolsusedformaintaininglists'></a>Tools used for maintaining lists
 
-* [DeDupe Lists](http://www.textwidgets.com/dedupelist.html)
-* [Rule redundancy checker](https://abpvn.com/ruleChecker/redundantRuleChecker.html)
-* [Konbert large JSON to CSV converter](https://konbert.com/convert/json/to/csv)
+* [DeDupe Lists](http://www.textwidgets.com/dedupelist.html) - Because who doesn't need to deduplicate and sort lists quickly
+* [Table to Markdown](https://tabletomarkdown.com/format-markdown-table/) - For cleaning up the formatting of my markdown tables
+* [Rule redundancy checker](https://abpvn.com/ruleChecker/redundantRuleChecker.html) - Does what it says on the label
+* [Konbert large JSON to CSV converter](https://konbert.com/convert/json/to/csv) - Also does what it says on the label
 * [Shodan](https://beta.shodan.io/) - To help identify affiliated websites of a company based on the information in their SSL certificates.
   * Example: News Corp sites - (https://beta.shodan.io/search?query=ssl%3A"News+Corp") (Shodan subscription required)
 
